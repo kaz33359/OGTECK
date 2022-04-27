@@ -1,9 +1,9 @@
-@media only screen and (max-width:500px) {
-  /* For mobile phones: */
+/* @media only screen and (max-width:500px) {
+   For mobile phones: 
   aside, .main, .right {
     width: 100%;
   }
-}
+} */
 
 
 
@@ -52,7 +52,7 @@
   } */
   
   /* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
-  @media (max-width: 500px) {
+  @media (max-width: 499px) {
     nav , aside , section   {
       width: 100%;
       height: auto;
