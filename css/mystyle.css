@@ -22,7 +22,7 @@
     width: 20%;
     height: 684px; /* only for demonstration, should be removed */
     background: rgb(241, 132, 6);
-    padding-top: 20px;
+    padding-top: 15px;
     margin: 0px 0px 0px;
   }
   
@@ -128,7 +128,7 @@ background:rgb(238, 221, 196)
  text-align:center; 
  border:2px solid #d5d5d5;
  margin-top: 18px;
- margin-left: 50%;
+ 
 }
 .our-webcoderskull .cnt-block figure{
  width:70px; 
