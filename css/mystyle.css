@@ -11,7 +11,7 @@
   aside {
     float: left;
     width: 20%;
-    height: 684px; /* only for demonstration, should be removed */
+    height: 690px; /* only for demonstration, should be removed */
     background: rgb(241, 132, 6);
     padding-top: 15px;
     margin: 0px 0px 0px;
@@ -44,7 +44,7 @@
   
   /* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
   @media (max-width: 500px) {
-    nav  , aside     {
+    nav  , section     {
       width: 100%;
       height: auto;
     }
