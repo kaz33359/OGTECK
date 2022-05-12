@@ -1,0 +1,151 @@
+.bs-icon {
+  --bs-icon-size: .75rem;
+  display: flex;
+  flex-shrink: 0;
+  justify-content: center;
+  align-items: center;
+  font-size: var(--bs-icon-size);
+  width: calc(var(--bs-icon-size) * 2);
+  height: calc(var(--bs-icon-size) * 2);
+  color: var(--bs-primary);
+}
+
+.bs-icon-xs {
+  --bs-icon-size: 1rem;
+  width: calc(var(--bs-icon-size) * 1.5);
+  height: calc(var(--bs-icon-size) * 1.5);
+}
+
+.bs-icon-sm {
+  --bs-icon-size: 1rem;
+}
+
+.bs-icon-md {
+  --bs-icon-size: 1.5rem;
+}
+
+.bs-icon-lg {
+  --bs-icon-size: 2rem;
+}
+
+.bs-icon-xl {
+  --bs-icon-size: 2.5rem;
+}
+
+.bs-icon.bs-icon-primary {
+  color: var(--bs-white);
+  background: var(--bs-primary);
+}
+
+.bs-icon.bs-icon-primary-light {
+  color: var(--bs-primary);
+  background: rgba(var(--bs-primary-rgb), .2);
+}
+
+.bs-icon.bs-icon-semi-white {
+  color: var(--bs-primary);
+  background: rgba(255, 255, 255, .5);
+}
+
+.bs-icon.bs-icon-rounded {
+  border-radius: .5rem;
+}
+
+.bs-icon.bs-icon-circle {
+  border-radius: 50%;
+}
+
+#navbar-brand {
+  padding-left: 15px;
+}
+
+.list-group-item {
+  background-color: #5b99d2;
+  border: none;
+  color: #ffffff;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+#banner {
+  width: 696px;
+  height: 183px;
+}
+
+.navbar {
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+#logo {
+  padding-bottom: 5px;
+  padding-right: 20px;
+  height: 90px;
+}
+
+.nav-item {
+  padding-left: 40px;
+}
+
+#content {
+  border-radius: 3px;
+  border-top: var(--bs-red);
+}
+
+ul {
+}
+
+#carousel-1 {
+}
+
+#sidebar {
+  /*padding-left: 20px;*/
+  padding-right: 40px;
+  background-color: #5b99d2;
+}
+
+#content-box-row {
+  padding-top: 25px;
+}
+
+#service-box1 {
+  border-radius: 5%;
+  /*padding: 30px;*/
+  margin: 20px;
+  background-color: #ffffff;
+}
+
+#service-box {
+  border-radius: 3%;
+  padding: 30px;
+  margin: 20px;
+  background-color: #dedede;
+}
+
+#service-box3 {
+  border-radius: 3%;
+  margin: 20px;
+}
+
+#about-banner {
+  height: 150px;
+  width: 1035px;
+}
+
+#about-img {
+  width: 380px;
+  height: 180px;
+}
+
+#footernav-index {
+  padding: 35px;
+}
+
+#contact {
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+}
+
