@@ -133,15 +133,11 @@
   width: 300px;
   height: 165px;
 }
-#footer
-{
-    position: fixed;
-  left: 0;
-  bottom: 0;
-}
 
 #footernav-index {
-
+  /* position: fixed; */
+  left: 0;
+  bottom: 0;
   padding: 20px;
 }
 #footernav-about {
