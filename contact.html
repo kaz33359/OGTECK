@@ -27,7 +27,7 @@
     <header>
       <nav class="navbar navbar-light navbar-expand-md">
         <div class="container-fluid">
-          <a href=""><img id="logo" class="logo" src="assets/img/logo.png" /></a><a
+          <a href="index.html"><img id="logo" class="logo" src="assets/img/logo.png" /></a><a
             class="navbar-brand"
             href="index.html"
             style="font-size: 22px"
@@ -76,7 +76,7 @@
             <div class="list-group text-start">
               <a class="list-group-item list-group-item-action" href="service1.html"
                 ><span><strong>Technical Services</strong></span></a
-              ><a href="training.html"
+              ><a href="service7.html"
                 class="list-group-item list-group-item-action"
                 id="sidebar-link"
                 ><span><strong>Training</strong></span></a
@@ -188,38 +188,46 @@ Mundayad,   P.O Varam, Kannur,
                       </div>
                       <div class="col-md-6 col-lg-5 col-xl-4">
                         <div>
-                          <form class="p-3 p-xl-4" method="post">
+                          <form class="p-3 p-xl-4 flex-container padding-top-90">
                             <div class="mb-3">
                               <input
                                 class="form-control"
                                 type="text"
-                                id="name-1"
+                                id="name"
                                 name="name"
                                 placeholder="Name"
+                                required
+                          class="form-input js-pointer-small"
                               />
                             </div>
                             <div class="mb-3">
                               <input
                                 class="form-control"
                                 type="email"
-                                id="email-1"
+                                id="email"
                                 name="email"
                                 placeholder="Email"
+                                required
+                          class="form-input js-pointer-small"
                               />
                             </div>
                             <div class="mb-3">
                               <textarea
                                 class="form-control"
-                                id="message-1"
+                                id="message"
                                 name="message"
                                 rows="6"
                                 placeholder="Message"
+                                required
+                          class="form-input js-pointer-small"
                               ></textarea>
                             </div>
                             <div>
                               <button
                                 class="btn btn-primary d-block w-100"
+                                id="send"
                                 type="submit"
+                        onclick="contact()"
                               >
                                 Send
                               </button>
@@ -272,7 +280,7 @@ Mundayad,   P.O Varam, Kannur,
                   >
                 </li>
               </ul>
-               <a class="navbar-brand ms-auto" href="#"
+               <a class="navbar-brand ms-auto" href="#" style="font-size: 18px;"
               ><strong>Copyrights 2022 All Rights Reserved|OGI Tech</strong><br /><strong
                 ></strong
               ></a
@@ -285,5 +293,6 @@ Mundayad,   P.O Varam, Kannur,
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/6.4.8/swiper-bundle.min.js"></script>
     <script src="assets/js/Simple-Slider.js"></script>
+    <script src="assets/js/custom.js"></script>
   </body>
 </html>

@@ -75,6 +75,8 @@
 }
 
 .navbar {
+  border-top: 2px solid;
+  border-bottom: 2px solid;
   padding-left: 50px;
   padding-right: 50px;
 }
@@ -97,7 +99,7 @@
 #sidebar {
   /*padding-left: 20px;*/
   padding: 0;
-  width: 188px;
+  width: 207px;
   background-color: #5b99d2;
 }
 
