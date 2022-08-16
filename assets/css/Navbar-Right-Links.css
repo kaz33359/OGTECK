@@ -63,8 +63,8 @@
   background-color: #5b99d2;
   border: none;
   color: #ffffff;
-  padding-left: 30px;
-  padding-right: 30px;
+  padding-left: 20px;
+  padding-right: 20px;
   padding-top: 25px;
   padding-bottom: 25px;
 }
@@ -128,7 +128,7 @@
 
 #about-banner {
   height: 120px;
-  width: 1085px;
+  width: 1220px;
 }
 
 #about-img {
